@@ -1,0 +1,73 @@
+network-status-version 3 microdesc
+vote-status consensus
+consensus-method 28
+valid-after 2000-01-01 00:25:00
+fresh-until 2000-01-01 00:30:00
+valid-until 2000-01-01 00:40:00
+voting-delay 20 20
+client-versions 
+server-versions 
+known-flags Authority Exit Fast Guard HSDir NoEdConsensus Running Stable V2Dir Valid
+recommended-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
+recommended-relay-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
+required-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
+required-relay-protocols Cons=1 Desc=1 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=3-4 Microdesc=1 Relay=1-2
+dir-source 4uthority BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B 100.0.0.1 100.0.0.1 9112 9111
+contact https://github.com/shadow/shadow-plugin-tor/issues
+vote-digest 1B6832F53ABBD2179512C72AA3CFE4EA7DFB5CD4
+r middle2 LCvkTBv1HLRG2yg6x3XYa1gK8Zs 2000-01-01 00:01:00 11.0.0.5 9111 9112
+m 77vjGXOqMx59BcUWhR5BR1TT+S1jUEM/Z1uyv8U2v6A
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r exit UZIVrNpa0Os4s1h1cDYrLyx5nKY 2000-01-01 00:01:00 11.0.0.3 9111 9112
+m kSxpMpIchJZdFn5HT7h9vOOivpyEwhszfAtdj7Nrhl0
+s Exit Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r guard1 XFl/Uv8QloNJmbyMrAWpSBWM4T4 2000-01-01 00:01:00 11.0.0.8 9111 9112
+m 85ODNq7COJN0cHFPmEAlgAD/AwySbvSGwHgWtv98g4w
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r 4uthority pSyltWxk2GT2rkPlbymsvVcG3aE 2000-01-01 00:15:01 100.0.0.1 9111 9112
+m tFyQvNaS6JigY8Hg9i0FRXqqIbVgX1hiy1hGdjCcU+0
+s Authority Fast HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r middle1 rr8oEVBrtoLx1goXIP4BlJBmcUk 2000-01-01 00:01:00 11.0.0.4 9111 9112
+m CBpYFcrePj4gNXIOMidTOP8kDq8zjO6FNV3WFFN394A
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r middle4 xEp31x3tYK0mZgROWVkvq1V7ibA 2000-01-01 00:01:00 11.0.0.7 9111 9112
+m O9QKiLEC24pVYmBLT2akuCVw5NLYWdcK27Q9NCG2OXQ
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r guard2 4n02KTCiViYxXhiyM60sFcaYKzM 2000-01-01 00:01:00 11.0.0.9 9111 9112
+m RRSz5cdq1Lz4XqGS67PjPfd10qw6tXkz3DO/IRSA7P4
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+r middle3 +867Vba35Lr+6JBUwu4ImuoZvQE 2000-01-01 00:01:00 11.0.0.6 9111 9112
+m 5cr5lDWXx9yrKI/ixw8yt5ajMnA1cqiDrcSzAHMPmYo
+s Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.3.5.7
+pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+w Bandwidth=0 Unmeasured=1
+directory-footer
+bandwidth-weights Wbd=3333 Wbe=0 Wbg=0 Wbm=10000 Wdb=10000 Web=10000 Wed=3333 Wee=10000 Weg=3333 Wem=10000 Wgb=10000 Wgd=3333 Wgg=10000 Wgm=10000 Wmb=10000 Wmd=3333 Wme=0 Wmg=0 Wmm=10000
+directory-signature sha256 BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B B6B52D36DA47A014B5CF65A55EDC62C93523DCC3
+-----BEGIN SIGNATURE-----
+2xXMhvhAqdY9GiENBpVODOwGKUN5evSbJw1pQJK566eGHA1xTmrYaTGu55br3Ove
+IGaZ8SVrk+tZDIyPN3gQW/gNvxKkdp80sbj4ukkgIpzTFeUTuMsaD2hihjbKb7mq
+QI8D389tXzkcaMIw1O8pcKwyAoLafOlVYtB47mCwnfI=
+-----END SIGNATURE-----
