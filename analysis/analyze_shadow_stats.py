@@ -9,14 +9,14 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-main_dict = eval(open("/home/sara/Desktop/Meh/SR/shadow/src/tools/stats.shadow.json").read())
+main_dict = eval(open("stats.shadow.json").read())
 d = {}
 names = []
 i=0
 for x,item in main_dict.items():
     for y, values in item.items():
         names.insert(i,str(y))
-        for z,byte_info in values.items()
+        for z,byte_info in values.items():
             d[y] = pd.DataFrame(byte_info)
 
 result = pd.concat(d,keys=names)
