@@ -63,11 +63,24 @@
     </host>
 
     <!-- our clients: each downloads a 1MiB file 10 times -->
-    <host id="torclient" quantity="2">
+    <host id="torclient1">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
-	      <process plugin="torctl" starttime="901" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
-        <process plugin="tgen" starttime="1200" arguments="conf/tgen.torclient.graphml.xml" />
+	      <process plugin="torctl" starttime="200" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+        <process plugin="tgen" starttime="1000" arguments="conf/tgen.torclient.graphml.xml" />
     </host>
+
+    <host id="torclient2">
+        <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
+	      <process plugin="torctl" starttime="400" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+        <process plugin="tgen" starttime="2000" arguments="conf/tgen.torclient.graphml.xml" />
+    </host>
+
+    <host id="torclient3">
+        <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
+	      <process plugin="torctl" starttime="600" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+        <process plugin="tgen" starttime="3000" arguments="conf/tgen.torclient.graphml.xml" />
+    </host>
+
 
     <host id="client" quantity="2">
       <process plugin="tgen" starttime="1200" arguments="conf/tgen.client.graphml.xml" />
