@@ -37,7 +37,11 @@
     <plugin id="torctl" path="~/.shadow/lib/libshadow-plugin-torctl.so" />
 
     <!-- our services -->
-    <host id="server" quantity="2" bandwidthdown="102400" bandwidthup="102400" >
+    <host id="hiddenserver" bandwidthdown="102400" bandwidthup="102400" >
+        <process plugin="tgen" starttime="1" arguments="conf/tgen.hiddenserver.graphml.xml" />
+    </host>
+
+    <host id="server" bandwidthdown="102400" bandwidthup="102400" >
         <process plugin="tgen" starttime="1" arguments="conf/tgen.server.graphml.xml" />
     </host>
 
@@ -72,13 +76,13 @@
     <host id="torclient2">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
 	      <process plugin="torctl" starttime="400" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
-        <process plugin="tgen" starttime="2000" arguments="conf/tgen.torclient.graphml.xml" />
+        <process plugin="tgen" starttime="2000" arguments="conf/tgen.torhiddenclient.graphml.xml" />
     </host>
 
     <host id="torclient3">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
 	      <process plugin="torctl" starttime="600" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
-        <process plugin="tgen" starttime="3000" arguments="conf/tgen.torclient.graphml.xml" />
+        <process plugin="tgen" starttime="3000" arguments="conf/tgen.torhiddenclient.graphml.xml" />
     </host>
 
 
