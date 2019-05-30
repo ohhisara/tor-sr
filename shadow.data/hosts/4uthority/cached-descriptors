@@ -1,18 +1,18 @@
 router 4uthority 100.0.0.1 9111 0 9112
 identity-ed25519
 -----BEGIN ED25519 CERT-----
-AQQABAYJAXN+iXEDZRf6R+jW41XSD9teo+Fj/kpU5tl9pEw9YXhkAQAgBACG7qx/
-NnVZWlMFDqTsiCh4eQX+LWVauSmdw7jTsU4RgvASBgpZ3zdDjr7fuhOE7YONR9uH
-GdNMuj1e/THUvfgnhIdvKc9yGI6BywWuRVd0ykDHegydKm0hTcktC6zyfwA=
+AQQABAYIAXN+iXEDZRf6R+jW41XSD9teo+Fj/kpU5tl9pEw9YXhkAQAgBACG7qx/
+NnVZWlMFDqTsiCh4eQX+LWVauSmdw7jTsU4Rgl8rBK4YdTIEvFvofLI30Gix749W
+ELV+enFsYbEIpRjrCoGlslRpsmXCnRh3ikbA5cK3QL8LYtcZi7BXFKuaKgM=
 -----END ED25519 CERT-----
 master-key-ed25519 hu6sfzZ1WVpTBQ6k7IgoeHkF/i1lWrkpncO407FOEYI
 platform Tor 0.3.5.7 on Linux
 proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
-published 2000-01-01 00:00:01
+published 2000-01-01 00:00:00
 fingerprint A52C A5B5 6C64 D864 F6AE 43E5 6F29 ACBD 5706 DDA1
 uptime 0
 bandwidth 1024000 1024000 0
-extra-info-digest F2D1F3782D755F95909641D2EAB1988786F02807 w3QhizpagUbWeHWiPtw7RMimG5/V8lOIfbL9tRylJrg
+extra-info-digest 7169C8F16E6A1530BC1B43D55EAAF28881CFC3B1 W+EojwTHjfzGykqvCEb7+s3phCcVyr9PsSHKP2aGIyQ
 caches-extra-info
 onion-key
 -----BEGIN RSA PUBLIC KEY-----
@@ -34,19 +34,19 @@ htYG0pmp33vtOVJAFckjfWw6TytZAq8k5LNM8OexUtk=
 -----END CROSSCERT-----
 ntor-onion-key-crosscert 0
 -----BEGIN ED25519 CERT-----
-AQoABAXZAYburH82dVlaUwUOpOyIKHh5Bf4tZVq5KZ3DuNOxThGCAFqYZeiT4k3u
-jAykqML8rkDvzAxg1ZXDgazDA1YbkbLVXkofzF8vHsBCW59kCisdUVL019ykBgqu
-9P0Z25kmXgo=
+AQoABAXYAYburH82dVlaUwUOpOyIKHh5Bf4tZVq5KZ3DuNOxThGCAKK7x+C9nJ4d
+59Dy9iFcJZ5/RzNDOGg4OyhZwcTndY0KsawvIhd0dfdkyl8k4puk1FuL3z1onDcj
+J6hBtqh7Wg4=
 -----END ED25519 CERT-----
 hidden-service-dir
 contact https://github.com/shadow/shadow-plugin-tor/issues
 ntor-onion-key rtiLjNXYDdO0OFkTbFDXfBlHHZCi5bGs2DLHijVlLgY=
 reject *:*
 tunnelled-dir-server
-router-sig-ed25519 yCQhKo/O/h8ijPJinny6jaC/HSOO4y2UD057izaGEsUBiLnYLB9pSAP7Ul6sVXiaC+zX03YnZ3p2IVszukHTDg
+router-sig-ed25519 svO8x9dwYlWfp1MCBwYbjTS+W3owciwMRxDIW61QdSHOPvJ2FPEbHCdz2BhLhG1b9HY5oMrsQOYDgaVCDclWDA
 router-signature
 -----BEGIN SIGNATURE-----
-hjt7yx+owuyB9R+6cDbSXLiuwQN7fQYcvkYFELac5aeV/4DfLI+5PpG/OlHjcxvw
-zZIhxSEU80XyBVKJ2L2B2lmeCUYjNhj3hJjvllKhvzmxw2OWrSS1eEGbDuHi3Kmv
-IPyRgwqF4b+q49FqzpVOi0usMdA4khbRbNvTD694eII=
+OTHsWMROtsf309m48z6oMFtg127iKFUSO/8xzon1m/h6ZYimq5iQAVoGAdzL217N
+oyiwX/pqxn8Eji+K1GJDiYSs3ZkKCELmSDdCR+5apvI1d7ujS8Bdf2Y3vVSaml+S
+KhKVNP+qclq4rOkGmZrLzwkKCH8wbwa6NgutHh/DmUc=
 -----END SIGNATURE-----

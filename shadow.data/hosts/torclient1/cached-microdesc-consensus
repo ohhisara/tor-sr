@@ -1,9 +1,9 @@
 network-status-version 3 microdesc
 vote-status consensus
 consensus-method 28
-valid-after 2000-01-01 00:20:00
-fresh-until 2000-01-01 00:25:00
-valid-until 2000-01-01 00:35:00
+valid-after 2000-01-01 00:25:00
+fresh-until 2000-01-01 00:30:00
+valid-until 2000-01-01 00:40:00
 voting-delay 20 20
 client-versions 
 server-versions 
@@ -14,7 +14,7 @@ required-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=
 required-relay-protocols Cons=1 Desc=1 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=3-4 Microdesc=1 Relay=1-2
 dir-source 4uthority BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B 100.0.0.1 100.0.0.1 9112 9111
 contact https://github.com/shadow/shadow-plugin-tor/issues
-vote-digest D855BED2F9403ED0EA6BCF2CAF3FC441FD887208
+vote-digest 669B2B6000F4B38209DAFEC467B259F276FF437D
 r middle2 LCvkTBv1HLRG2yg6x3XYa1gK8Zs 2000-01-01 00:01:00 11.0.0.5 9111 9112
 m 77vjGXOqMx59BcUWhR5BR1TT+S1jUEM/Z1uyv8U2v6A
 s Fast Guard HSDir Running Stable V2Dir Valid
@@ -67,7 +67,7 @@ directory-footer
 bandwidth-weights Wbd=3333 Wbe=0 Wbg=0 Wbm=10000 Wdb=10000 Web=10000 Wed=3333 Wee=10000 Weg=3333 Wem=10000 Wgb=10000 Wgd=3333 Wgg=10000 Wgm=10000 Wmb=10000 Wmd=3333 Wme=0 Wmg=0 Wmm=10000
 directory-signature sha256 BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B B6B52D36DA47A014B5CF65A55EDC62C93523DCC3
 -----BEGIN SIGNATURE-----
-094uKeqG6gp9Kkn7PJxXmbka0HbeLGDP7+xdRJk1ttoiP30ZJmxEH34sP3G33dW0
-Awujp9w4bQhb+uqI2PeZHLFIpIIW1dG6BDlhoq8q0m5rZs2Xm5Sik0+X5dterJFp
-LWartdgUWBLIwsEQ6GHNs4vozEQX2KuADmlW/u8J+M8=
+mb0BICBJb4LmtDo1wCm2wjBvPr1odWEF7OLsINdmegs8Cszmy/s57VG8Qe/96tGl
+K1FdaOzS46gb2GxqaNecs5qbtqP/AfSVuT+0uH9V1cOGWphHPsLdifKHtUk/SuN1
+IS4vgboIM7lFlALPm/DdKSm2832/QxOl/h1Q/waKGqU=
 -----END SIGNATURE-----

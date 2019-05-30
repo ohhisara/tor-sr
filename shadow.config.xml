@@ -39,6 +39,8 @@
     <!-- our services -->
     <host id="hiddenserver" bandwidthdown="102400" bandwidthup="102400" >
         <process plugin="tgen" starttime="1" arguments="conf/tgen.hiddenserver.graphml.xml" />
+        <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.hiddenserver.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
+		    <process plugin="torctl" starttime="901" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
     </host>
 
     <host id="server" bandwidthdown="102400" bandwidthup="102400" >
@@ -47,8 +49,8 @@
 
     <!-- our Tor network infrastructure -->
     <host id="4uthority" bandwidthdown="10240" bandwidthup="10240" iphint="100.0.0.1" >
-        <process plugin="tor" preload="tor-preload" starttime="1" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.authority.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
-	      <process plugin="torctl" starttime="2" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+        <process plugin="tor" preload="tor-preload" starttime="0" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.authority.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
+	      <process plugin="torctl" starttime="0" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
     </host>
 
     <host id="exit" bandwidthdown="10240" bandwidthup="10240">
@@ -67,21 +69,21 @@
     </host>
 
     <!-- our clients: each downloads a 1MiB file 10 times -->
-    <host id="torclient1">
+    <host id="torhiddenclient1">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
-	      <process plugin="torctl" starttime="200" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+	      <process plugin="torctl" starttime="901" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
         <process plugin="tgen" starttime="1000" arguments="conf/tgen.torclient.graphml.xml" />
     </host>
 
-    <host id="torclient2">
+    <host id="torhiddenclient2">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
-	      <process plugin="torctl" starttime="400" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+	      <process plugin="torctl" starttime="901" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
         <process plugin="tgen" starttime="2000" arguments="conf/tgen.torhiddenclient.graphml.xml" />
     </host>
 
-    <host id="torclient3">
+    <host id="torclient1">
         <process plugin="tor" preload="tor-preload" starttime="900" arguments="--Address ${NODEID} --Nickname ${NODEID} --DataDirectory shadow.data/hosts/${NODEID} --GeoIPFile ~/.shadow/share/geoip --defaults-torrc conf/tor.common.torrc -f conf/tor.client.torrc --BandwidthRate 1024000 --BandwidthBurst 1024000" />
-	      <process plugin="torctl" starttime="600" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
+	      <process plugin="torctl" starttime="901" arguments="localhost 9051 STREAM,CIRC,CIRC_MINOR,ORCONN,BW,STREAM_BW,CIRC_BW,CONN_BW"/>
         <process plugin="tgen" starttime="3000" arguments="conf/tgen.torhiddenclient.graphml.xml" />
     </host>
 

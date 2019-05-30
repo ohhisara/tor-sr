@@ -14,7 +14,7 @@ required-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=
 required-relay-protocols Cons=1 Desc=1 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=3-4 Microdesc=1 Relay=1-2
 dir-source 4uthority BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B 100.0.0.1 100.0.0.1 9112 9111
 contact https://github.com/shadow/shadow-plugin-tor/issues
-vote-digest 1B6832F53ABBD2179512C72AA3CFE4EA7DFB5CD4
+vote-digest 669B2B6000F4B38209DAFEC467B259F276FF437D
 r middle2 LCvkTBv1HLRG2yg6x3XYa1gK8Zs WID1mJ950qWxC7cDtv+47uttx38 2000-01-01 00:01:00 11.0.0.5 9111 9112
 s Fast Guard HSDir Running Stable V2Dir Valid
 v Tor 0.3.5.7
@@ -33,7 +33,7 @@ v Tor 0.3.5.7
 pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
 w Bandwidth=0 Unmeasured=1
 p reject 1-65535
-r 4uthority pSyltWxk2GT2rkPlbymsvVcG3aE F/8P29jFlwiVSo4JNgcAlJr+st0 2000-01-01 00:15:01 100.0.0.1 9111 9112
+r 4uthority pSyltWxk2GT2rkPlbymsvVcG3aE GchJ3LBazlHrZwuAJmkpOPwfvYU 2000-01-01 00:15:01 100.0.0.1 9111 9112
 s Authority Fast HSDir Running Stable V2Dir Valid
 v Tor 0.3.5.7
 pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
@@ -67,7 +67,7 @@ directory-footer
 bandwidth-weights Wbd=3333 Wbe=0 Wbg=0 Wbm=10000 Wdb=10000 Web=10000 Wed=3333 Wee=10000 Weg=3333 Wem=10000 Wgb=10000 Wgd=3333 Wgg=10000 Wgm=10000 Wmb=10000 Wmd=3333 Wme=0 Wmg=0 Wmm=10000
 directory-signature BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B B6B52D36DA47A014B5CF65A55EDC62C93523DCC3
 -----BEGIN SIGNATURE-----
-NDwvkEmY5nwrfEb1JQtxQpFWPkQ5aIjcc9+8lM8MdbQKnnMsNuXZW6vU3RdYOblc
-8GwyLkqpeEq6IrDPRDhfIW6jnU+tTY22KwlCVgMKSP73272ypVU7opaBVJSFCZF+
-AbrKVo9lUPjhgFz4o6v3VSOHZtZtQBT0qS4XhxPqYbs=
+OfFFCu2OA8fBW8pPLgE64sHTGssXZxTZp1vNUiGdVxBgfQDmwKl3L5faTzqH5xQR
+lShXNDINX7mte6QkSv341l4WJHgkI0UU+c/REeHKDEZZIQUwOO79jLyJoBc0wfb8
+7KHy/JrEQCMMUgEAffm8GQy+PK4Dlr3YSIy1jp+I4To=
 -----END SIGNATURE-----

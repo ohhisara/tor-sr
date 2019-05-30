@@ -4,12 +4,12 @@
 
 BWHistoryReadEnds 2000-01-02 00:01:00
 BWHistoryReadInterval 86400
-BWHistoryReadValues 3158016
-BWHistoryReadMaxima 211968
+BWHistoryReadValues 13676544
+BWHistoryReadMaxima 229376
 BWHistoryWriteEnds 2000-01-02 00:01:00
 BWHistoryWriteInterval 86400
-BWHistoryWriteValues 3527680
-BWHistoryWriteMaxima 212992
+BWHistoryWriteValues 14032896
+BWHistoryWriteMaxima 230400
 BWHistoryDirReadEnds 2000-01-02 00:01:00
 BWHistoryDirReadInterval 86400
 BWHistoryDirReadValues 0
@@ -19,7 +19,7 @@ BWHistoryDirWriteInterval 86400
 BWHistoryDirWriteValues 1024
 BWHistoryDirWriteMaxima 0
 Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-24T06:25:48 sampled_by=0.3.5.7 listed=1
-Guard in=default rsa_id=519215ACDA5AD0EB38B3587570362B2F2C799CA6 nickname=exit sampled_on=1999-12-26T02:19:28 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-23T15:41:10 confirmed_idx=1 pb_circ_attempts=2.000000 pb_circ_successes=2.000000 pb_successful_circuits_closed=2.000000
+Guard in=default rsa_id=519215ACDA5AD0EB38B3587570362B2F2C799CA6 nickname=exit sampled_on=1999-12-26T02:19:28 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-24T01:06:55 confirmed_idx=1 pb_circ_attempts=2.000000 pb_circ_successes=2.000000 pb_successful_circuits_closed=2.000000
 Guard in=default rsa_id=5C597F52FF1096834999BC8CAC05A948158CE13E nickname=guard1 sampled_on=1999-12-20T00:30:56 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=2C2BE44C1BF51CB446DB283AC775D86B580AF19B nickname=middle2 sampled_on=1999-12-24T14:38:22 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=AEBF2811506BB682F1D60A1720FE019490667149 nickname=middle1 sampled_on=1999-12-24T15:02:50 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-25T19:43:12 confirmed_idx=0 pb_circ_attempts=85.000000 pb_circ_successes=85.000000 pb_successful_circuits_closed=85.000000
@@ -27,13 +27,12 @@ Guard in=default rsa_id=FBCEBB55B6B7E4BAFEE89054C2EE089AEA19BD01 nickname=middle
 TorVersion Tor 0.3.5.7
 LastRotatedOnionKey 2000-01-01 00:01:00
 LastWritten 2000-01-01 00:29:56
-TotalBuildTimes 92
-CircuitBuildTimeBin 625 55
-CircuitBuildTimeBin 675 21
-CircuitBuildTimeBin 725 4
-CircuitBuildTimeBin 775 2
-CircuitBuildTimeBin 825 4
-CircuitBuildTimeBin 925 1
-CircuitBuildTimeBin 1025 2
+TotalBuildTimes 93
+CircuitBuildTimeBin 625 43
+CircuitBuildTimeBin 675 30
+CircuitBuildTimeBin 725 13
+CircuitBuildTimeBin 775 3
+CircuitBuildTimeBin 825 1
+CircuitBuildTimeBin 1075 1
 CircuitBuildTimeBin 1125 1
-CircuitBuildTimeBin 2175 2
+CircuitBuildTimeBin 1175 1

@@ -4,12 +4,12 @@
 
 BWHistoryReadEnds 2000-01-02 00:01:00
 BWHistoryReadInterval 86400
-BWHistoryReadValues 3684352
-BWHistoryReadMaxima 267264
+BWHistoryReadValues 4102144
+BWHistoryReadMaxima 306176
 BWHistoryWriteEnds 2000-01-02 00:01:00
 BWHistoryWriteInterval 86400
-BWHistoryWriteValues 4019200
-BWHistoryWriteMaxima 267264
+BWHistoryWriteValues 4396032
+BWHistoryWriteMaxima 307200
 BWHistoryDirReadEnds 2000-01-02 00:01:00
 BWHistoryDirReadInterval 86400
 BWHistoryDirReadValues 0
@@ -19,19 +19,22 @@ BWHistoryDirWriteInterval 86400
 BWHistoryDirWriteValues 0
 BWHistoryDirWriteMaxima 0
 Guard in=default rsa_id=2C2BE44C1BF51CB446DB283AC775D86B580AF19B nickname=middle2 sampled_on=1999-12-27T02:47:26 sampled_by=0.3.5.7 listed=1
-Guard in=default rsa_id=E27D362930A25626315E18B233AD2C15C6982B33 nickname=guard2 sampled_on=1999-12-22T23:06:26 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-27T22:21:14 confirmed_idx=1 pb_circ_attempts=5.000000 pb_circ_successes=5.000000 pb_successful_circuits_closed=5.000000
+Guard in=default rsa_id=E27D362930A25626315E18B233AD2C15C6982B33 nickname=guard2 sampled_on=1999-12-22T23:06:26 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-31T05:15:29 confirmed_idx=1 pb_circ_attempts=5.000000 pb_circ_successes=5.000000 pb_successful_circuits_closed=5.000000
 Guard in=default rsa_id=FBCEBB55B6B7E4BAFEE89054C2EE089AEA19BD01 nickname=middle3 sampled_on=1999-12-30T21:37:16 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=AEBF2811506BB682F1D60A1720FE019490667149 nickname=middle1 sampled_on=1999-12-28T09:35:42 sampled_by=0.3.5.7 listed=1
-Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-21T11:34:56 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-23T12:17:52 confirmed_idx=0 pb_circ_attempts=82.000000 pb_circ_successes=82.000000 pb_successful_circuits_closed=82.000000
+Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-21T11:34:56 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-21T13:23:24 confirmed_idx=0 pb_circ_attempts=82.000000 pb_circ_successes=82.000000 pb_successful_circuits_closed=82.000000
 Guard in=default rsa_id=519215ACDA5AD0EB38B3587570362B2F2C799CA6 nickname=exit sampled_on=1999-12-21T17:13:00 sampled_by=0.3.5.7 listed=1
 TorVersion Tor 0.3.5.7
 LastRotatedOnionKey 2000-01-01 00:01:00
 LastWritten 2000-01-01 00:29:56
 TotalBuildTimes 92
-CircuitBuildTimeBin 625 37
-CircuitBuildTimeBin 675 33
-CircuitBuildTimeBin 725 14
+CircuitBuildTimeBin 625 43
+CircuitBuildTimeBin 675 26
+CircuitBuildTimeBin 725 11
 CircuitBuildTimeBin 775 3
-CircuitBuildTimeBin 825 3
-CircuitBuildTimeBin 1425 1
-CircuitBuildTimeBin 1925 1
+CircuitBuildTimeBin 925 1
+CircuitBuildTimeBin 1075 1
+CircuitBuildTimeBin 1175 1
+CircuitBuildTimeBin 1425 3
+CircuitBuildTimeBin 1625 1
+CircuitBuildTimeBin 2175 2

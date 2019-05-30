@@ -81,7 +81,7 @@ w Bandwidth=0
 p reject 1-65535
 id ed25519 Sjd1kfK+bW+DCYPunE9O70HCiYTc8/q3OvxsYJphQNE
 m 25,26,27,28 sha256=85ODNq7COJN0cHFPmEAlgAD/AwySbvSGwHgWtv98g4w
-r 4uthority pSyltWxk2GT2rkPlbymsvVcG3aE F/8P29jFlwiVSo4JNgcAlJr+st0 2000-01-01 00:15:01 100.0.0.1 9111 9112
+r 4uthority pSyltWxk2GT2rkPlbymsvVcG3aE GchJ3LBazlHrZwuAJmkpOPwfvYU 2000-01-01 00:15:01 100.0.0.1 9111 9112
 s Authority Fast HSDir Running Stable V2Dir Valid
 v Tor 0.3.5.7
 pr Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
@@ -124,7 +124,7 @@ m 25,26,27,28 sha256=5cr5lDWXx9yrKI/ixw8yt5ajMnA1cqiDrcSzAHMPmYo
 directory-footer
 directory-signature BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B B6B52D36DA47A014B5CF65A55EDC62C93523DCC3
 -----BEGIN SIGNATURE-----
-dqrCu5X25V/r7nRYv8Z15O/4xvAulIl3P+2KLyoNop9/32onMTXEpXi6c6Wj748B
-JreryHYSTyQpYkS71xbPD8yaUL163niZfMcTtVPNvdlQVuykb0gedrZd4FDFJIME
-V0fc5jdGpncD0UdsCULMzTlxE9pOYefRykZ+Atrzfqs=
+HN9ae7GX/4Qgf+p/9XnrTkbl2oQ7/sAmvLN5CoWCHDqx0XX+Ny9o3KfsbEIr89Nt
+kUtp3p8sLWyqJZxiDXZpH8KxtPwY9lyDHK2ldfWcih59z8nXP29NZ5bYUPteZXHy
+ZMtKtBBXTgxqbkQd0iT03/qXaizFIbpHTDtcKTBgxK8=
 -----END SIGNATURE-----
