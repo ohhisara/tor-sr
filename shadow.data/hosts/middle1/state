@@ -1,39 +1,42 @@
-# Tor state file last generated on 2000-01-01 00:29:56 local time
+# Tor state file last generated on 2000-01-01 00:37:11 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
 BWHistoryReadEnds 2000-01-02 00:01:00
 BWHistoryReadInterval 86400
-BWHistoryReadValues 13874176
+BWHistoryReadValues 25438208
 BWHistoryReadMaxima 229376
 BWHistoryWriteEnds 2000-01-02 00:01:00
 BWHistoryWriteInterval 86400
-BWHistoryWriteValues 14138368
+BWHistoryWriteValues 25763840
 BWHistoryWriteMaxima 229376
 BWHistoryDirReadEnds 2000-01-02 00:01:00
 BWHistoryDirReadInterval 86400
-BWHistoryDirReadValues 25600
+BWHistoryDirReadValues 35840
 BWHistoryDirReadMaxima 0
 BWHistoryDirWriteEnds 2000-01-02 00:01:00
 BWHistoryDirWriteInterval 86400
-BWHistoryDirWriteValues 0
+BWHistoryDirWriteValues 1024
 BWHistoryDirWriteMaxima 0
-Guard in=default rsa_id=5C597F52FF1096834999BC8CAC05A948158CE13E nickname=guard1 sampled_on=1999-12-20T02:16:16 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-23T04:04:36 confirmed_idx=0 pb_circ_attempts=81.000000 pb_circ_successes=81.000000 pb_successful_circuits_closed=81.000000
+Guard in=default rsa_id=5C597F52FF1096834999BC8CAC05A948158CE13E nickname=guard1 sampled_on=1999-12-20T02:16:16 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-23T04:04:36 confirmed_idx=0 pb_circ_attempts=100.000000 pb_circ_successes=100.000000 pb_successful_circuits_closed=100.000000
 Guard in=default rsa_id=2C2BE44C1BF51CB446DB283AC775D86B580AF19B nickname=middle2 sampled_on=1999-12-28T15:48:04 sampled_by=0.3.5.7 listed=1
-Guard in=default rsa_id=E27D362930A25626315E18B233AD2C15C6982B33 nickname=guard2 sampled_on=1999-12-20T17:10:50 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-30T12:01:35 confirmed_idx=1 pb_circ_attempts=6.000000 pb_circ_successes=6.000000 pb_successful_circuits_closed=6.000000
+Guard in=default rsa_id=E27D362930A25626315E18B233AD2C15C6982B33 nickname=guard2 sampled_on=1999-12-20T17:10:50 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-30T12:01:35 confirmed_idx=1 pb_circ_attempts=9.000000 pb_circ_successes=9.000000 pb_successful_circuits_closed=9.000000
 Guard in=default rsa_id=519215ACDA5AD0EB38B3587570362B2F2C799CA6 nickname=exit sampled_on=1999-12-23T08:20:42 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-24T00:34:04 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=FBCEBB55B6B7E4BAFEE89054C2EE089AEA19BD01 nickname=middle3 sampled_on=1999-12-29T21:05:58 sampled_by=0.3.5.7 listed=1
 TorVersion Tor 0.3.5.7
 LastRotatedOnionKey 2000-01-01 00:01:00
-LastWritten 2000-01-01 00:29:56
-TotalBuildTimes 93
-CircuitBuildTimeBin 625 53
-CircuitBuildTimeBin 675 28
-CircuitBuildTimeBin 725 3
-CircuitBuildTimeBin 775 3
-CircuitBuildTimeBin 825 2
+LastWritten 2000-01-01 00:37:11
+TotalBuildTimes 115
+CircuitBuildTimeBin 625 57
+CircuitBuildTimeBin 675 31
+CircuitBuildTimeBin 725 8
+CircuitBuildTimeBin 775 6
+CircuitBuildTimeBin 825 3
 CircuitBuildTimeBin 875 1
+CircuitBuildTimeBin 1125 1
+CircuitBuildTimeBin 1175 4
 CircuitBuildTimeBin 1425 1
 CircuitBuildTimeBin 1525 1
 CircuitBuildTimeBin 2125 1
+CircuitBuildTimeBin 2175 1

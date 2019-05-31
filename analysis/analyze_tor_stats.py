@@ -18,8 +18,7 @@ for x,item in main_dict.items():
         names.insert(i,str(y))
         i=i+1
         d[y] = pd.DataFrame(values)
-result = pd.concat(d,keys=names)
-result.to_csv('out_tor_stats.csv')
+        d[y].to_csv(str(y)+'.csv')
 
 #conn = []
 #j=0

@@ -1,26 +1,30 @@
-# Tor state file last generated on 2000-01-01 00:29:55 local time
+# Tor state file last generated on 2000-01-01 00:49:06 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
-Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-30T09:34:29 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-27T20:27:15 confirmed_idx=1
-Guard in=default rsa_id=5C597F52FF1096834999BC8CAC05A948158CE13E nickname=guard1 sampled_on=1999-12-22T18:56:47 sampled_by=0.3.5.7 listed=1
-Guard in=default rsa_id=FBCEBB55B6B7E4BAFEE89054C2EE089AEA19BD01 nickname=middle3 sampled_on=1999-12-20T06:42:41 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-22T14:30:16 confirmed_idx=0 pb_circ_attempts=50.000000 pb_circ_successes=50.000000 pb_successful_circuits_closed=50.000000
+Guard in=default rsa_id=C44A77D71DED60AD2666044E59592FAB557B89B0 nickname=middle4 sampled_on=1999-12-30T09:34:29 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-24T15:38:37 confirmed_idx=1
+Guard in=default rsa_id=5C597F52FF1096834999BC8CAC05A948158CE13E nickname=guard1 sampled_on=1999-12-22T18:56:47 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-27T08:20:47 confirmed_idx=2
+Guard in=default rsa_id=FBCEBB55B6B7E4BAFEE89054C2EE089AEA19BD01 nickname=middle3 sampled_on=1999-12-20T06:42:41 sampled_by=0.3.5.7 listed=1 confirmed_on=1999-12-22T14:30:16 confirmed_idx=0 pb_use_attempts=2.000000 pb_use_successes=2.000000 pb_circ_attempts=106.000000 pb_circ_successes=106.000000 pb_successful_circuits_closed=106.000000
 Guard in=default rsa_id=E27D362930A25626315E18B233AD2C15C6982B33 nickname=guard2 sampled_on=1999-12-28T10:41:21 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=2C2BE44C1BF51CB446DB283AC775D86B580AF19B nickname=middle2 sampled_on=1999-12-23T22:44:39 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=AEBF2811506BB682F1D60A1720FE019490667149 nickname=middle1 sampled_on=1999-12-27T17:30:43 sampled_by=0.3.5.7 listed=1
 Guard in=default rsa_id=519215ACDA5AD0EB38B3587570362B2F2C799CA6 nickname=exit sampled_on=1999-12-24T19:43:35 sampled_by=0.3.5.7 listed=1
 TorVersion Tor 0.3.5.7
-LastWritten 2000-01-01 00:29:55
-TotalBuildTimes 50
-CircuitBuildTimeBin 625 23
-CircuitBuildTimeBin 675 7
-CircuitBuildTimeBin 725 3
-CircuitBuildTimeBin 775 2
+LastWritten 2000-01-01 00:49:06
+TotalBuildTimes 106
+CircuitBuildTimeBin 625 40
+CircuitBuildTimeBin 675 13
+CircuitBuildTimeBin 725 11
+CircuitBuildTimeBin 775 3
 CircuitBuildTimeBin 925 1
 CircuitBuildTimeBin 975 1
 CircuitBuildTimeBin 1025 1
-CircuitBuildTimeBin 1175 4
+CircuitBuildTimeBin 1125 2
+CircuitBuildTimeBin 1175 14
 CircuitBuildTimeBin 1225 1
-CircuitBuildTimeBin 1425 2
-CircuitBuildTimeBin 1475 2
-CircuitBuildTimeBin 2175 3
+CircuitBuildTimeBin 1425 11
+CircuitBuildTimeBin 1475 1
+CircuitBuildTimeBin 1525 2
+CircuitBuildTimeBin 1625 2
+CircuitBuildTimeBin 1825 1
+CircuitBuildTimeBin 2175 2

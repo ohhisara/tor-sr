@@ -1,22 +1,22 @@
 network-status-version 3
 vote-status vote
 consensus-methods 25 26 27 28
-published 2000-01-01 00:29:20
-valid-after 2000-01-01 00:30:00
-fresh-until 2000-01-01 00:35:00
-valid-until 2000-01-01 00:45:00
+published 2000-01-01 01:04:20
+valid-after 2000-01-01 01:05:00
+fresh-until 2000-01-01 01:10:00
+valid-until 2000-01-01 01:20:00
 voting-delay 20 20
 recommended-relay-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
 recommended-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
 required-relay-protocols Cons=1 Desc=1 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=3-4 Microdesc=1 Relay=1-2
 required-client-protocols Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1 Link=4 Microdesc=1-2 Relay=2
 known-flags Authority Exit Fast Guard HSDir Running Stable V2Dir Valid
-flag-thresholds stable-uptime=1700 stable-mtbf=1699 fast-speed=0 guard-wfu=98.000% guard-tk=1699 guard-bw-inc-exits=0 guard-bw-exc-exits=0 enough-mtbf=0 ignoring-advertised-bws=0
+flag-thresholds stable-uptime=3800 stable-mtbf=3799 fast-speed=0 guard-wfu=98.000% guard-tk=3799 guard-bw-inc-exits=0 guard-bw-exc-exits=0 enough-mtbf=0 ignoring-advertised-bws=0
 params 
 dir-source 4uthority BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B 100.0.0.1 100.0.0.1 9112 9111
 contact https://github.com/shadow/shadow-plugin-tor/issues
 shared-rand-participate
-shared-rand-commit 1 sha3-256 BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B AAAAADhtRBYMjMHMx5FC73DQucKCjKMg+Z+aT0E5Vd3xJcgYPiNS0Q==
+shared-rand-commit 1 sha3-256 BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B AAAAADhtRBYMjMHMx5FC73DQucKCjKMg+Z+aT0E5Vd3xJcgYPiNS0Q== AAAAADhtRBbG0lZRYnhhrWDv70IKhZLIQF81TVQv9gZLs4K0sWypVw==
 bandwidth-file-headers timestamp=946684801
 dir-key-certificate-version 3
 fingerprint BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B
@@ -124,7 +124,7 @@ m 25,26,27,28 sha256=5cr5lDWXx9yrKI/ixw8yt5ajMnA1cqiDrcSzAHMPmYo
 directory-footer
 directory-signature BA3FDA7CE3B41FBF9BB3615BE6ACD28D883E694B B6B52D36DA47A014B5CF65A55EDC62C93523DCC3
 -----BEGIN SIGNATURE-----
-HN9ae7GX/4Qgf+p/9XnrTkbl2oQ7/sAmvLN5CoWCHDqx0XX+Ny9o3KfsbEIr89Nt
-kUtp3p8sLWyqJZxiDXZpH8KxtPwY9lyDHK2ldfWcih59z8nXP29NZ5bYUPteZXHy
-ZMtKtBBXTgxqbkQd0iT03/qXaizFIbpHTDtcKTBgxK8=
+vxlQkc6rmiLzxiKSE1gs+87yOA0OqCbsLc1dzhmD/xPzqr/4xovi3EzlF0uHUPGP
+H7LEd8v87gLGduQQOKnKHfcTbV1Z+X/g+fI1CscuwQw6X7ChPyA3ecYUvLdwZipX
+l2bLsL8bB7VBM/fBH4w1wfMX/3fdwofBlCBCdNXjfk8=
 -----END SIGNATURE-----
